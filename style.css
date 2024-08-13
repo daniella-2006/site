@@ -5,13 +5,13 @@
     list-style: none;
 }
 
-.wrapper {
+/* .wrapper {
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 100px;
     margin-right: 407px;
     box-sizing: border-box;
-}
+} */
 
 
 .liste-wrapper {
@@ -226,18 +226,14 @@
     padding: 10px;
     background-color: #F1F1F1;
     border-radius: 10px;
-    /* padding-left: 20px; */
     box-sizing: border-box;
-    /* padding-right: 20px; */
 }
 
 .second-bloc {
-    /* display: block; */
     padding: 10px;
     background-color: #F1F1F1;
     border-radius: 10px;
     padding-left: 20px;
-    /* box-sizing: border-box; */
     margin-right: 10px;
 
 }
@@ -506,7 +502,7 @@
     margin-top: 40px;
     margin-bottom: 40px;
     padding-top: 20px;
-    width: 1200px;
+    width: 1000px;
     height: 180px;
 }
 
@@ -543,12 +539,6 @@
     color: black;
 }
 
-.animation:hover:active {
-    color: aquamarine;
-    background-color: salmon;
-    border: 2px salmon;
-
-}
 
 .hebergement {
     margin-top: 10px;
@@ -563,7 +553,7 @@
     display: flex;
 }
 
-/* 
+
 @media (width <=630px) {
     .reservia-wrapper {
         display: flex;
@@ -642,13 +632,73 @@
         flex-direction: column-reverse;
     }
 
-    .second-bloc {
+    .cannebiere {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .port {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .mouettes {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .mer {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .panier {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .amina {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .soleil-matin {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .chambre-dhote {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .bleu-et-blanc {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .image1 {
         width: 100%;
     }
 
-    .first-bloc {
-        width: 100vh;
+    .support3 {
         width: 100%;
+    }
+
+    .support33 {
+        width: 100%;
+    }
+
+    .support1 {
+        width: 100%;
+    }
+
+    .image3 {
+        width: 100%;
+    }
+
+    .image2 {
+        width: 200px;
     }
 
     .ligne1 {
@@ -666,8 +716,26 @@
         width: 100%;
     }
 
-    .bloc1 {
-        display: block;
+    .port {
+        width: 100%;
     }
 
-} */
+    .bloc1 {
+        display: inline-table;
+    }
+
+    .image4 {
+        width: 100%;
+    }
+
+    .image31 {
+        width: 100%;
+    }
+
+
+    .support22 {
+        width: 100%;
+    }
+
+
+}
