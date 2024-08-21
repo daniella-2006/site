@@ -625,7 +625,8 @@
 
 .foot {
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    margin-left: 125px;
 }
 
 .foot-wrapper {
@@ -824,10 +825,6 @@
         display: block;
     }
 
-    .foot-wrapper {
-        display: flex;
-    }
-
     .footer3 {
         align-items: center;
     }
@@ -856,13 +853,13 @@
     .carte {
         width: 100%;
     }
+
+    .foot-wrapper {
+        display: flex;
+    }
 }
 
 @media (width <=532px) {
-    .foot-wrapper {
-        display: block;
-    }
-
     .support {
         display: grid;
         grid-template-areas: 'carte10' 'carte11' ' carte12' ' cate13';
@@ -886,5 +883,17 @@
 
     .carteee {
         width: 100%;
+    }
+
+    .bloc1 {
+        width: 100%;
+    }
+
+    .foot {
+        justify-content: center;
+    }
+
+    .foot-wrapper {
+        display: block;
     }
 }
